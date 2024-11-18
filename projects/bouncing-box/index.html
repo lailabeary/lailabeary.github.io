@@ -79,7 +79,7 @@
 			*/
 			function update() {
 				/* Your Code to Increase positionX by 10 HERE */
-				positionX += 10;
+				positionX = positionX;
 				positionX += speed;
 
 				if (positionX > boardWidth) {
@@ -105,7 +105,7 @@
 			function handleBoxClick() {
 				positionX = 0;
 				points += 1;
-				speed += 3;
+			
 
 				if (speed > 0){
 					speed = speed + 3;
